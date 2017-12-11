@@ -116,6 +116,40 @@ $(document).ready(function() {
   
   //*****************************//
   
+  // Project Details Carousel
+  
+  $(".Project_Details_Carousel_Class").owlCarousel({
+    navigation : true,
+    navigationText: [
+     "<i class='material-icons'>chevron_left</i>",
+     "<i class='material-icons'>chevron_right</i>"],
+    pagination : false,
+    slideSpeed : 1000,
+    paginationSpeed : 2000,
+    items : 1,
+    itemsDesktop : [1200,1],
+    itemsDesktopSmall : [992,1],
+    itemsTablet : [768,1],
+    itemsMobile : [400,1]
+  });
+
+  $(".Project_Details_Carousel_Class2").owlCarousel({
+    navigation : true,
+    navigationText: [
+     "<i class='material-icons'>chevron_left</i>",
+     "<i class='material-icons'>chevron_right</i>"],
+    pagination : false,
+    slideSpeed : 1000,
+    paginationSpeed : 2000,
+    items : 2,
+    itemsDesktop : [1200,2],
+    itemsDesktopSmall : [992,2],
+    itemsTablet : [768,2],
+    itemsMobile : [400,2]
+  });
+  
+  //*****************************//
+  
 });
 
 // Window Load Function

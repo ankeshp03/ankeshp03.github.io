@@ -875,4 +875,25 @@ section#skills .skills .skill-item .progress {
 .modal-footer {
 	padding: 0 !important;
 }
+
+.owl-buttons {
+	margin-right: -25px;
+}
+
+.owl-next {
+	margin-left: 5px;
+}
+
+.owl-prev, .owl-next {
+	background: rgba(0,0,0,0.3);
+	transition: all 0.5s;
+}
+
+.owl-prev:hover, .owl-next:hover {
+	background: rgba(0,0,0,0.7);
+}
+
+.Project_Details_Carousel_Class2 img {
+	max-width: 80%;
+}
 /*------------------------------------------------------------------*/
