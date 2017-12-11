@@ -100,23 +100,6 @@ $(document).ready(function() {
   
   //*****************************//
   
-  
-  // Service Carousel
-  
-  $("#Services_Carousel").owlCarousel({
-    navigation : false,
-    pagination : true,
-    slideSpeed : 1000,
-    paginationSpeed : 2000,
-    items : 3,
-    itemsDesktop : [1200,3],
-    itemsDesktopSmall : [992,3],
-    itemsTablet : [768,2],
-    itemsMobile : [400,1]
-  });
-  
-  //*****************************//
-  
   // Project Carousel
   
   $("#Project_Carousel").owlCarousel({
@@ -133,23 +116,6 @@ $(document).ready(function() {
   
   //*****************************//
   
-
-  // References Carousel
-  
-  $("#References_Carousel").owlCarousel({
-    navigation : false,
-    pagination : true,
-    slideSpeed : 1000,
-    paginationSpeed : 2000,
-    items : 5,
-    itemsDesktop : [1200,5],
-    itemsDesktopSmall : [992,4],
-    itemsTablet : [768,3],
-    itemsMobile : [400,2]
-  });
-  
-//*****************************//
-
 });
 
 // Window Load Function

@@ -9,16 +9,12 @@
 2. Right Sidebar
 3. Navigation
 4. Header
-5. Full Page Video
-6. Revolution Slider
-7. Full Page Image
-8. Skills
-9. Services
-10. Project
-11. Pricing Table
-12. References
-13. Contact
-14. Footer
+5. Revolution Slider
+6. Full Page Image
+7. Skills
+8. Project
+9. Contact
+10. Footer
 -------------------------------------------------------------------*/
 
 @import url(reset.css);
@@ -159,6 +155,14 @@ table th {
 
 .section-table .col4 {
 	width: 20%;
+}
+
+.modal h4 {
+	margin: 10px 0;
+}
+
+.modal p {
+	line-height: 18px;
 }
 
 /*------------------------------------------------------------------*/
@@ -487,7 +491,7 @@ table th {
 .full-image-container p.banner-text {
 	font-size: 16px;
 	letter-spacing: 3px;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 /*------------------------------------------------------------------*/
