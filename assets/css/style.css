@@ -302,12 +302,12 @@ table th {
 
 .mobile-menu {
 	right: 20px;
-	bottom: 68px;
+	bottom: 47px;
 }
 
 @media only screen and (max-width: 601px) {
 	.mobile-menu {
-		bottom: 64px;
+		bottom: 42px;
 	}
 }
 /*------------------------------------------------------------------*/
