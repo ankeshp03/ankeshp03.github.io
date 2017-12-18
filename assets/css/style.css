@@ -301,13 +301,13 @@ table th {
 }
 
 .mobile-menu {
-	right: 20px;
-	bottom: 47px;
+	right: 15px;
+	bottom: 10px;
 }
 
 @media only screen and (max-width: 601px) {
 	.mobile-menu {
-		bottom: 42px;
+		/*bottom: 42px;*/
 	}
 }
 /*------------------------------------------------------------------*/

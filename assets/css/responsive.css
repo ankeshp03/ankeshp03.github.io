@@ -44,9 +44,9 @@
   .fixed-action-btn ul {
     bottom: 50px;
   }
-  .fixed-action-btn ul li {
+  /*.fixed-action-btn ul li {
     margin-bottom: 8px;
-  }
+  }*/
   .profile-image img {
     width: 100%;
   }
@@ -174,6 +174,9 @@
 }
 
 @media (min-width: 601px) and (max-width: 992px) {
+  .fixed-action-btn ul {
+    bottom: 55px;
+  }
   .user-wrapper .profile-image,
   .user-wrapper .user-content {
     float: left;
@@ -281,6 +284,34 @@
 @media (min-width: 1366px) {
   #navbar nav ul a {
     padding: 0 15px;
+  }
+}
+
+/* For the responsive menu */
+
+@media (min-height: 470px) {
+  .mobile-menu ul li .btn-floating {
+    width: 48px !important;
+    height: 48px !important;
+  }
+  .mobile-menu ul li .btn-floating i {
+    line-height: 48px !important;
+  }
+}
+
+@media (max-height: 400px) {
+  .fixed-action-btn ul li {
+    margin-bottom: 8px;
+  }
+}
+
+@media (max-height: 460px) {
+  .mobile-menu ul li .btn-floating {
+    width: 37px;
+    height: 37px;
+  }
+  .mobile-menu ul li .btn-floating i {
+    line-height: 37px;
   }
 }
 
