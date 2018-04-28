@@ -357,7 +357,7 @@ table th {
 
 
 /*------------------------------------------------------------------
-[6. Revolution Slider]
+[5. Revolution Slider]
 */
 
 .tp-caption {
@@ -371,7 +371,7 @@ table th {
 
 
 /*------------------------------------------------------------------
-[7. Full Page Image]
+[6. Full Page Image]
 */
 
 .full-image-container {
@@ -429,7 +429,7 @@ table th {
 
 
 /*------------------------------------------------------------------
-[8. Skills]
+[7. Skills]
 */
 
 section#skills .skills {
@@ -483,7 +483,7 @@ section#skills .skills .skill-item .progress {
 
 
 /*------------------------------------------------------------------
-[10. Project]
+[8. Project]
 */
 
 #Project_Carousel {
@@ -565,20 +565,7 @@ section#skills .skills .skill-item .progress {
 
 
 /*------------------------------------------------------------------
-[12. References]
-*/
-
-#References_Carousel {
-	padding-top: 60px;
-}
-
-/*------------------------------------------------------------------*/
-
-
-
-
-/*------------------------------------------------------------------
-[13. Contact]
+[9. Contact]
 */
 
 .contact-information {
@@ -610,13 +597,20 @@ section#skills .skills .skill-item .progress {
 	font-weight: 300;
 }
 
+.email, .phone {
+	color: #666;
+}
+
+.email:hover, .phone:hover {
+	color: #111;
+}
 /*------------------------------------------------------------------*/
 
 
 
 
 /*------------------------------------------------------------------
-[14. Footer]
+[10. Footer]
 */
 
 #footer .copyright {
