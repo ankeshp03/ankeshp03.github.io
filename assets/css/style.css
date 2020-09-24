@@ -157,6 +157,10 @@ table th {
 	width: 20%;
 }
 
+.modal {
+	max-height: 75%;
+}
+
 .modal h4 {
 	margin: 10px 0;
 }
@@ -569,7 +573,7 @@ section#skills .skills .skill-item .progress {
 */
 
 .contact-information {
-	height: 280px !important;
+	height: 270px !important;
 	padding-top: 60px;
 }
 
